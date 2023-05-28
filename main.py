@@ -3,7 +3,7 @@ import GUI
 # Variables
 lbl_title = "¿Número par o impar?"
 lbl_numberInput = "Indique un número: "
-
+message = None
 # Funciones
 def oddOrEven():
     number = int(GUI.inputNumber.get())
@@ -12,6 +12,7 @@ def oddOrEven():
     else:
         message = "El número es impar"
     print(number, message)
+    GUI._varMessage.set(message)
 
 # función main e invocación
 def main():
