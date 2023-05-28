@@ -6,9 +6,12 @@ lbl_numberInput = "Indique un número: "
 
 # Funciones
 def oddOrEven():
-    #TODO
-    pass
-
+    number = int(GUI.inputNumber.get())
+    if number%2 == 0:
+        message = "El número es par"
+    else:
+        message = "El número es impar"
+    print(number, message)
 
 # función main e invocación
 def main():
