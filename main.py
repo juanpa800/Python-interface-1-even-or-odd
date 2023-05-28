@@ -1,7 +1,16 @@
 import GUI
 
-lbl_number = "HOLA DESDE MAIN"
+# Variables
+lbl_title = "¿Número par o impar?"
+lbl_numberInput = "Indique un número: "
 
+# Funciones
+def oddOrEven():
+    #TODO
+    pass
+
+
+# función main e invocación
 def main():
     GUI()
 
